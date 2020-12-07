@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@font-face {
+    font-family: Segoe UI;
+    src: url(../font/Segoe\ UI\ Bold.ttf);
+}
+
+
+
+body {
+
+    margin: auto;
+    padding: 0px;
+
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.banner-sec {
+    background-image: url('../img/bnrr.png');
+    position: relative;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    min-height: 550px;
+}
+
+
+.navbar-nav .active > .nav-link {
+    color: #1575c5 !important;
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: #4bc7cb;
+    min-height: 55px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.banner-logo strong {
+    color: #fff;
+    font-size: 45px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.banner-logo img {
+    width: 76px;
+    height: 94px;
+}
+
+.banner-logo {
+    position: absolute;
+    left: 0px;
+    bottom: 120px;
+    color: #fff;
+    width: 100%;
+    z-index: 8;
+    padding: 5px 10px;
+    bottom: 63%;
+}
+
+.banner-caption {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: #4bc7cb;
+    color: #fff;
+    width: 100%;
+    z-index: 8;
+    padding-top: 42px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+    overflow: hidden;
+    min-height: 180px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.banner-caption p {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-caption h2 {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    width: 310px;
+}
+
+
+span.navbar-toggler-icon {
+    color: #fff;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .2rem;
+    padding-left: 2rem;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.project h6 {
+    color: #5B5B5B;
+    font-size: 24px;
+
+}
+
+.project p {
+    color: #4D4D4D;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.proj-title {
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.proj-title h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: blue;
+    letter-spacing: 6px;
+}
+
+.proj-title p {
+    color: #000;
+    font-size: 35px;
+    margin-bottom: 36px;
+    padding-top: 6px;
+    letter-spacing: 6px;
+}
+
+.project {
+    background-color: #fff;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    webkit-box-shadow: 0px 10px 41px -22px #5969c3;
+    box-shadow: 0px 10px 41px -22px #5969c3;
+    max-width: 330px;
+    margin: 18px;
+    padding: 30px;
+}
+
+
+.wp-txt h5 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: blue;
+    letter-spacing: 6px;
+}
+
+.wp-txt p {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+}
+
+.view-button {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.view-btn {
+    background: none;
+    border: 2px solid #4BC7CB;
+    color: #1575C5;
+    padding: 6px 28px;
+    font-size: 14px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.whitepaper-sec {
+    margin-top: 43px;
+    margin-bottom: 70px;
+}
+
+
+.read-btn {
+    color: #4BC7CB;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.proj3 {
+    width: 70px !important;
+}
+
+.project img {
+    width: 70px;
+    padding-bottom: 20px;
+}
+
+.project h6 {
+    line-height: 26px;
+}
+
+.list-group-item {
+    margin-bottom: 15px;
+    min-height: 80px;
+    border: none;
+    -webkit-box-shadow: -5px 5px 18px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 5px 18px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: -5px 5px 18px -8px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.btn-download {
+    background: #1575C5;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 18px;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.btn-download img {
+    padding-right: 8px;
+    width: 20px;
+}
+
+.wp-txt .list-group .list {
+    width: 35px;
+}
+
+.wp-txt .list-group small {
+    margin-right: auto;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding-left: 20px
+}
+
+
+.footer {
+    background: #202020;
+    min-height: 300px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.foot-abt p {
+    font-size: 16px;
+}
+
+.foot-abt img {
+    padding-bottom: 15px;
+}
+
+.foot-link {
+    font-size: 13px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 35px;
+    padding-left: 100px;
+}
+
+.foot-cnt {
+    list-style: none;
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+
+.foot-cnt h5 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.foot-social {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.foot-social li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.foot-social h5 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.foot-cnt li img {
+    padding-right: 8px;
+}
+
+.foot-cnt li {
+    font-size: 13px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.prod-banner {background-image: url('../img/single_bnr.jpg');
+
+ 
+    font-family: 'Roboto', sans-serif;
+background-position:center;
+background-size: cover;
+min-height:150px;
+opacity: 3.8;
+
+}
+
+
+.prod-banner h5 {   font-weight: 500; padding-top: 35px; color:#fff;
+    font-size: 32px;}
+
+
+.prdct-img {width:100%; margin-top:40px; }
+
+.prdct-cnt p {letter-spacing: -0.04px; margin-bottom: 40px; font-weight:300; font-size:15px;line-height: 26px; margin-top:30px; font-family: 'Roboto', sans-serif;}
+
+.prdct-cnt h4 {margin-top:18px; font-size: 36px; font-weight: 500;  font-family: 'Roboto', sans-serif;}
+
+.caps {
+    float: left;
+    margin-top: .4em;
+    margin-right: 1em;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    font-size: 1.25em;
+    font-weight: 900;
+    color: inherit;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 4px 13px rgba(131,131,131,0.3);
+    -moz-box-shadow: 5px 4px 13px rgba(131,131,131,0.3);
+    box-shadow: 5px 4px 13px rgba(131,131,131,0.3);}
+
+
+/* Media queries */
+
+@media (min-width:1900px) {
+
+    .project {
+        max-width: 530px !important;
+       
+        padding: 90px;
+    }
+
+    .navbar {
+        padding-left: 70px !important;
+        padding-right: 70px !important;
+    }
+
+}
+
+@media (min-width:1800px) and (max-width:1899px) {
+
+
+    .project {
+        max-width: 495px !important;
+       
+        padding: 90px;
+    }
+
+    .project img {
+        width: 100px;
+    }
+
+    .navbar {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+}
+
+
+
+@media (min-width:1600px) and (max-width:1700px) {
+
+
+
+    .project {
+        max-width: 470px !important;
+      
+        padding: 90px;
+    }
+
+    .project img {
+        width: 100px;
+    }
+
+
+    .whitepaper-sec .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1700px;
+    }
+
+    .project-sec .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1700px;
+    }
+
+
+
+
+
+    .navbar {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .proj3 {
+        width: 70px !important;
+    }
+
+    .banner-caption h2 {
+        font-size: 100px;
+    }
+
+    .banner-caption p {
+        font-size: 60px;
+    }
+
+    .banner-caption h2 {
+        font-size: 45px;
+    }
+
+    .proj-title h5 {
+        font-size: 32px;
+    }
+
+    .proj-title p {
+        font-size: 65px;
+    }
+
+
+    .project h6 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .project p {
+        font-size: 20px;
+    }
+
+    .read-btn {
+        font-size: 18px;
+        padding-top: 25px;
+    }
+
+    .wp-txt p {
+        font-size: 55px;
+    }
+
+    .wp-txt h5 {
+        font-size: 32px;
+    }
+
+
+}
+
+
+
+
+@media (min-width:1540px) {
+
+
+
+    .project {
+        max-width: 480px;
+        margin: 16px;
+        padding: 90px;
+    }
+
+
+}
+
+
+@media (max-width:1440px) {
+
+    .project {
+        padding: 22px !important;
+    }
+
+}
+
+@media (min-width:1440px) {
+
+
+    .project-sec .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1700px;
+    }
+
+    .whitepaper-sec .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1700px;
+    }
+
+    .project {
+        max-width: 420px;
+
+        padding: 90px;
+    }
+
+    .project img {
+        width: 93px;
+    }
+
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+
+
+@media (max-width:1200px) {
+
+    /* .banner-caption {padding-top: 15%; font-family: 'Roboto', sans-serif; color:#fff;}
+
+ */
+
+    /* .wp-txt .list-group small {
+    
+    padding-right: 8%;
+
+} */
+
+    .project {
+        max-width: 280px;
+        margin: 20px;
+        padding: 30px;
+    }
+
+    .foot-link {
+        padding-left: 90px
+    }
+
+
+}
+
+
+
+
+@media (max-width:991px) {
+
+
+
+    /* .wp-txt .list-group small{padding-right: -32% !important;} */
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0px;
+    }
+
+    .foot-link {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .foot-social {
+        padding-bottom: 15px;
+    }
+
+    .foot-abt {
+        padding-bottom: 20px;
+    }
+
+    .foot-cnt {
+        padding-bottom: 20px;
+    }
+
+
+
+    .navbar-brand img {
+        width: 300px;
+    }
+
+    .project {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+
+}
+
+
+@media (max-width:768px) {
+
+
+    .btn-download {
+        padding: 5px 9px;
+        text-align: center;
+    }
+
+    .wp-txt {
+        margin-top: 40px;
+    }
+
+    .banner-logo strong {
+        font-size: 28px;
+    }
+
+    .navbar-brand img {
+        width: 250px;
+    }
+
+
+}
+
+
+
+@media (max-width:575px) {
+
+
+    .list-group {
+        padding-left: 10px;
+    }
+
+    .wp-txt h5,
+    p {
+        padding-left: 10px;
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .project-sec {
+        margin-left: 10px;
+    }
+
+
+}
+
+
+@media (max-width:500px) {
+
+
+    .btn-download {
+        padding: 5px 18px;
+        width: 100%;
+    }
+
+    .wp-txt .list-group small {
+        padding-left: 20px;
+        float: right;
+        width: 100%;
+    }
+
+
+    .project {
+        margin-right: 10px;
+    }
+
+    .banner-logo strong {
+        font-size: 20px;
+    }
+
+    .banner-logo img {
+        width: 56px;
+        height: 74px;
+    }
+
+}
+
+@media (max-width:475px) {
+
+    /* .wp-txt .list-group small {padding-right: 30px;} */
+
+    .list-group {
+        padding-left: 0px;
+    }
+
+    .navbar-toggler {
+        padding: 3px;
+    }
+
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .banner-logo strong {
+        font-size: 23px;
+    }
+
+    .banner-logo img {
+        width: 50px;
+        height: 64px;
+    }
+
+    .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .btn-download {
+        font-size: 13px;
+        width: 100%;
+        padding: 5px 8px;
+    }
+
+
+    .banner-caption h2 {
+        font-size: 40px;
+    }
+
+    .banner-caption p {
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media (max-width:400px) {
+
+
+    .banner-logo strong {
+        font-size: 18px;
+    }
+
+    .btn-download {
+        font-size: 13px;
+        width: 100%;
+        padding: 5px 8px;
+    }
+
+    .banner-logo img {
+        width: 48px;
+        height: 62px;
+    }
+
+
+}
+
+
+@media (max-width:342px) {
+
+    .btn-download {
+        font-size: 10px;
+        width: 100%;
+        padding: 5px 8px;
+    }
+
+    .wp-txt .list-group small {
+        font-size: 13px;
+    }
+
+
+}
